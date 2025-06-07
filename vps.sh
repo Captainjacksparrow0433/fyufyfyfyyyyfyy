@@ -26,4 +26,3 @@ pip install -U -r requirements.txt --force-reinstall
 echo "Starting Bot in tmux session 'professorbot'....✨"
 tmux new-session -d -s professorbot 'source venv/bin/activate && python3 bot.py'
 echo "Bot is running inside tmux. Use: tmux attach -t professorbot"
-
