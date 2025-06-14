@@ -7,7 +7,7 @@ apt install -y git python3 python3-venv python3-pip tmux
 # Clone the repo 
 if [ -z $UPSTREAM_REPO ]; then
     echo "Cloning main Repository"
-    git clone https://github.com/MrMKN/PROFESSOR-BOT /ProfessorBot
+    git clone https://github.com/Captainjacksparrow0433/fyufyfyfyyyyfyy
 else
     echo "Cloning Custom Repo from $UPSTREAM_REPO"
     git clone $UPSTREAM_REPO /ProfessorBot
