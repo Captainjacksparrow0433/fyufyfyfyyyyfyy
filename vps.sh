@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Update & upgrade system
-apt update && apt upgrade -y
-apt install -y git python3 python3-venv python3-pip tmux
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y git python3 python3-venv python3-pip tmux
 
 # Clone the repo 
 if [ -z $UPSTREAM_REPO ]; then
